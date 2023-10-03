@@ -1,0 +1,97 @@
+site_name: Architecture GuideLines
+site_url: https://github.com/makeevrserg/theory.architecture
+site_author: Roman Makeev
+site_description: >-
+  Architecture GuideLines
+
+# Repository
+repo_name: makeevrserg/theory.architecture
+repo_url: https://github.com/makeevrserg/theory.architecture
+edit_uri: ""
+
+# Copyright
+copyright: Copyright &copy; 2023 - 2023 Roman Makeev
+
+# Page tree
+nav:
+  - Main:
+      - Gradle: main/index.md
+      - Compose: main/compose.md
+      - Feature: main/feature.md
+
+  # Configuration
+theme:
+  name: 'material'
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.expand
+  palette:
+    scheme: slate
+    primary: orange
+    accent: pink
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: media/logo.png
+  logo: media/logo.png
+  icon:
+    logo: logo
+
+# Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+# Customization
+extra:
+  social:
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
