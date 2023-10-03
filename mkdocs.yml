@@ -1,14 +1,11 @@
 site_name: Architecture GuideLines
 site_url: https://github.com/makeevrserg/ArchitectureTheory
 site_author: Roman Makeev
-site_description: >-
-  Architecture GuideLines
-
+site_description: "Architecture GuideLines"
 # Repository
 repo_name: makeevrserg/ArchitectureTheory
 repo_url: https://github.com/makeevrserg/ArchitectureTheory
 edit_uri: ""
-
 # Copyright
 copyright: Copyright &copy; 2023 - 2023 Roman Makeev
 
@@ -32,9 +29,22 @@ theme:
     - navigation.tabs
     - navigation.expand
   palette:
-    scheme: slate
-    primary: orange
-    accent: pink
+    # Palette toggle for light mode
+    - scheme: default
+      media: "(prefers-color-scheme: light)"
+      primary: orange
+      accent: 'white'
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      primary: orange
+      accent: 'white'
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   font:
     text: Roboto
     code: Roboto Mono
@@ -42,7 +52,6 @@ theme:
   logo: media/logo.png
   icon:
     logo: logo
-
 # Plugins
 plugins:
   - search
