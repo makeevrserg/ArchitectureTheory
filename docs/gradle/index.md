@@ -65,4 +65,4 @@
 
 `:modules:components` modules is a set of reusable logic or ui parts
 
-#### Want to see more detailed? Use navigation on left!
+### Want to see more detailed? Use navigation on left!
