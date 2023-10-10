@@ -11,10 +11,12 @@ copyright: Copyright &copy; 2023 - 2023 Roman Makeev
 
 # Page tree
 nav:
-  - Main:
-      - Gradle: main/index.md
-      - Compose: main/compose.md
-      - Feature: main/feature.md
+  - Gradle:
+      - Structure: gradle/index.md
+      - Services: gradle/services.md
+  - Feature:
+      - Feature: feature/feature.md
+      - Compose: feature/compose.md
 
   # Configuration
 theme:
