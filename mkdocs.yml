@@ -1,10 +1,10 @@
-site_name: Architecture GuideLines
-site_url: https://github.com/makeevrserg/ArchitectureTheory
+site_name: Arkitekture
+site_url: https://github.com/makeevrserg/Arkitekture
 site_author: Roman Makeev
-site_description: "Architecture GuideLines"
+site_description: "Arkitekture"
 # Repository
-repo_name: makeevrserg/ArchitectureTheory
-repo_url: https://github.com/makeevrserg/ArchitectureTheory
+repo_name: makeevrserg/Arkitekture
+repo_url: https://github.com/makeevrserg/Arkitekture
 edit_uri: ""
 # Copyright
 copyright: Copyright &copy; 2023 - 2023 Roman Makeev
